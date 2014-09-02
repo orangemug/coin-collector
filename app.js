@@ -185,7 +185,7 @@ function collectStar(player, coin) {
 
 function killPlayer(player) {
   player.kill();
-  gameOverText.text = "GAME OVER\nENTER TO RESTART";
+  gameOverText.text = "GAME OVER\nSCORE: "+score+"\nENTER TO RESTART";
   score = 0;
   gameOver = true;
 }
