@@ -1,0 +1,17 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: rgb(83, 108, 138);
+  background-color: black;
+  margin: 0;
+}
+
+canvas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -240px;
+  margin-left: -300px;
+}
